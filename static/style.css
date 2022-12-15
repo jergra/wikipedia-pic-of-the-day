@@ -1,0 +1,168 @@
+/* html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    background: #f8f9fa; /* light grey */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+    padding: 12px;
+    background: #2a4b8d; /* dark blue */
+    color: #ffffff;
+}
+
+a {
+    color: #3366cc; /* blue */
+}
+a:link {
+    text-decoration: none;
+}
+  
+
+
+p {
+    margin: 8px;
+}
+
+.card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: auto; */
+    min-width: 200px;
+    max-width: 97vw;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.16);
+}
+
+.potd {
+    padding: 20px;
+}
+
+figure {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    margin: 12px auto; 
+    max-width: 80vw;
+    max-height: 83vh;
+    border: 1px solid#3366cc; /* blue */
+}
+
+figure a {
+    margin: 8px;
+}
+
+.rightSide {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    /* padding-left: 60px; */
+    /* margin-right: 40px; */
+    width: 600px;
+}
+.pic-title {
+    width: 470px;
+    padding: 12px 8px 12px 22px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    background: #f3f9ff; /* very light blue */
+    border: 1px solid #2a4b8d; /* dark blue */
+}
+.text {
+    width: 520px;
+    /* height: 330px; */
+    font-size: 18px;
+    /* margin-top: 40px; */
+    padding: 8px;
+    margin-bottom: 20px;
+    /* background: beige; */
+}
+
+.date-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+    /* padding: 12px; */
+}
+
+.current-date {
+    /* width: 500px; */
+    height: 50px;
+    margin-left: 14px;
+    font-size: 2em;
+    color: #72777d; /* grey */
+}
+
+.date-navigator {
+    margin: 16px auto;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    background: #3366cc; /* blue */
+    color: #ffffff;
+}
+
+.date-navigator input {
+    margin: 8px;
+    min-height: 44px;
+    width: 45%;
+    font-size: 0.67em;
+    font-weight: inherit;
+    text-transform: none;
+    background: #3366cc; /* blue */
+    color: inherit;
+    border: 1px solid #ffffff;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.date-navigator input:hover {
+    background: #447FF5; /* light blue */
+}
+
+.date-navigator input:active {
+    background: #2a4b8d; /* dark blue */
+    border: none;
+    box-shadow: none;
+}
+
+.footer {
+    text-align: center;
+}
+
+.date-navigator input:disabled {
+    color: #c8cdff; /* grey */
+    border: 1px solid #c8cdff; /* grey */ 
+    box-shadow: none;
+    cursor: default;
+}
+
+.date-navigator input:disabled:hover {
+    background: #3366cc; /* blue */
+}
