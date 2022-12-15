@@ -47,9 +47,7 @@ deployed at:
  
 to update:
     go to https://www.pythonanywhere.com/user/jergra43/files/home/jergra43
-    login:
-        jergra43
-        !V------3e
+    login
     go to 'Files'
     go to the 'mysite' directory and upload the updated 'flask_app.py' file, or 
     go to the 'mysite/static' directory and upload the updated 'style.css' file, or 
