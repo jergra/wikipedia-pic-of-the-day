@@ -37,7 +37,7 @@ start locally:
     activate virtual environment: ./virtual_env/Scripts/activate
     note: might need to do 'pip install -r requirements.txt' if
         we are doing a clone
-    python app.py
+    python flask_app.py
 
 deployed at:
     http://jergra43.pythonanywhere.com/
