@@ -10,17 +10,19 @@
     <div class="card">
       <div class="potd">
         <div>
-          <a href="{{ data.image_page_url }}" target="blank">
           <figure>
             <img src="{{ data.image_src }}" />
-            <figcaption>View on Wikipedia</figcaption>
+            <div class="figCaption">
+              <a href="{{ data.image_page_url }}" target="blank">
+                View on Wikipedia
+              </a>
+            </div>
           </figure>
-          </a>
         </div>
       </div>
       <div class="rightSide">
         <div class="pic-title">
-          {{ data.filename }}
+          <div>{{ data.filename }}</div>
         </div>
         <div class="text">
           {{ data.caption | safe }}

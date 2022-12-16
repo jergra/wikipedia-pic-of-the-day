@@ -92,21 +92,30 @@ def fetch_potd(cur_date):
     theData = DATA["parse"]["text"]["*"]
     print("THE_DATA:", theData)
     
-    aa = theData.find('<td style="padding:0 6px 0 0">\n<p>')
-    bb = theData.find('<p style="text-align:left;"><small>Photograph')
-    print("aa:", aa)
-    print("bb:", bb)
+    # aa = theData.find('<td style="padding:0 6px 0 0">\n<p>')
+    # bb = theData.find('<p style="text-align:left;"><small>Photograph')
+    # print("aa:", aa)
+    # print("bb:", bb)
     
-    a = theData.find('style="padding:0 6px 0 0">\n<p>')
-    b = theData.find('<p style="text-align:left;"><')
+    a = theData.find('<td style="padding')
     print("a:", a)
+    aa = theData[a:a + 60]
+    print("aa:", aa)
+    aaa = aa.find('<p>')
+    print("aaa:", aaa)
+    aaaa = a + aaa
+    print("aaaa:", aaaa)
+    
+    b = theData.find('<p style="text-align:')
     print("b:", b)
-    c = theData[a + 26:b]
+    
+    c = theData[aaaa:b]
     print("------------------------------")
-    print("THE_DATA from a to b:")
+    print("THE_DATA from aaaa to b:")
     print(c)
     c = c.replace('href="', 'href="https://en.wikipedia.org')
     print("------------------------------")
+    print("THE_DATA from aaaa to b with working links:")
     print(c)
     print("------------------------------")
     
