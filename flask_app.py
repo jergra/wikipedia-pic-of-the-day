@@ -99,7 +99,7 @@ def fetch_potd(cur_date):
     
     a = theData.find('<td style="padding')
     print("a:", a)
-    aa = theData[a:a + 60]
+    aa = theData[a:a + 2400]
     print("aa:", aa)
     aaa = aa.find('<p>')
     print("aaa:", aaa)
@@ -113,10 +113,10 @@ def fetch_potd(cur_date):
     print("------------------------------")
     print("THE_DATA from aaaa to b:")
     print(c)
-    c = c.replace('href="', 'href="https://en.wikipedia.org')
+    # c = c.replace('href="', 'href="https://en.wikipedia.org')
     print("------------------------------")
     print("THE_DATA from aaaa to b with working links:")
-    print(c)
+    # print(c)
     print("------------------------------")
     
     g = theData.find('1.5x, //upload')

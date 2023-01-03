@@ -27,8 +27,7 @@ I took another approach and found scraping code which I used to
 scrape wikipedia's stand-alone page.
 
 The advantage of this project over wikipedia's page is that 
-the picture is larger and more conveniently presented at the 
-top of the page.
+the picture is larger and the overall presentation is simpler.
 
 to activate the virtual environment, type:
     ./virtual_env/Scripts/activate

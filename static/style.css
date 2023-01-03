@@ -55,7 +55,7 @@ figure {
     width: 100%;
     margin: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 figure img {
@@ -63,7 +63,6 @@ figure img {
     margin: 12px auto; 
     max-width: 80vw;
     max-height: 83vh;
-    /* border: 1px solid#3366cc;  */
 }
 
 .figCaption {
@@ -87,8 +86,7 @@ figure img {
     display: flex;
     justify-content: center;
     width: 500px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px;
     margin-bottom: 30px;
     font-size: 16px;
     font-weight: bold;
