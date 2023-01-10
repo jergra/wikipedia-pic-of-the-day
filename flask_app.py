@@ -113,7 +113,7 @@ def fetch_potd(cur_date):
     print("------------------------------")
     print("THE_DATA from aaaa to b:")
     print(c)
-    # c = c.replace('href="', 'href="https://en.wikipedia.org')
+    c = c.replace('href="', 'href="https://en.wikipedia.org')
     print("------------------------------")
     print("THE_DATA from aaaa to b with working links:")
     # print(c)
