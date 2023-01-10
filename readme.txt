@@ -42,6 +42,7 @@ deployed at:
     http://jergra43.pythonanywhere.com/
     
     It is necessary to login to pythonanywhere every three months
+    and press the 'Run until 3 months from today' button
     to keep the website operating. They will send a reminder email.
  
 to update:
